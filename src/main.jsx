@@ -4,6 +4,7 @@ import App from './App'
 import './styles/App.scss'
 import 'animate.css'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
