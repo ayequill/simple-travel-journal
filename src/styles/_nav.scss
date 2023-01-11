@@ -1,0 +1,15 @@
+@import "config";
+
+.nav {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin-bottom: 0.4em;
+  p {
+    color: white;
+    font-size: toRem(14.46);
+    line-height: toRem(18);
+    letter-spacing: -0.075em;
+  }
+}

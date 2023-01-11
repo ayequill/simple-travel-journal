@@ -1,0 +1,20 @@
+@import "nav";
+@import "hero";
+@import "config";
+@import "responsiveness";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  // font-size: 14px;
+}
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}

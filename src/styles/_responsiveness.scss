@@ -1,0 +1,19 @@
+@include media-md {
+  .App {
+    max-width: 800px !important;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include media-lg {
+  .App {
+    max-width: 1400px !important;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
